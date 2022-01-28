@@ -9,11 +9,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css" />
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">  
   </head>
   <body>
+   
+<!--Beatrice header-->
+     <div class="container">
+      <header>
+        <div>
+          <h2 id="home">Restoranas EndFrontas</h2>
+        </div>
+      </header>
+    </div>
+    
       <!-- restorano interjero sekcija, Laurynas -->
-  <div class="container">
+
     <section>
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -98,23 +109,92 @@
     </section>
 
     <!-- restorano sefu sekcijos pabaiga, Laurynas -->
+        
+<!--     Vitalijaus dalis-->
+         <!-- Formos pradza kandidaturos siulymas-->
+        <div class="row mt-2">
+            <div class="col-12 col-sm-6">
+              <h5>Nori prisijungti prie mūsų komandos?</h5>
+                <div class="mb-2">
+                  <label for="name" class="form-label">Jūsų Vardas</label>
+                  <input type="text" class="form-control" id="name" placeholder="Užpildykite" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-2">
+                  <label for="exampleFormControlInput1" class="form-label">E-pašto adresas</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-2">
+                  <label for="exampleFormControlTextarea1" class="form-label">Trumpai apie save</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="mb-2">
+                  <label for="formFileSm" class="form-label">Įklekite savo gyvenimo aprašyma "CV". </label>
+                  <input class="form-control form-control-sm" id="formFileSm" type="file">
+                  <p>Jūsų asmeniniai duomenys bus naudojami tik siekiant sureaguoti į Jūsų kreipimąsi.</p>
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                  <button class="btn btn-primary" type="button"><i class="bi bi-emoji-smile-upside-down"></i> Patvirtinti</button>
+                </div>
+            </div>
+            <!-- kandidaturos pabaiga -->
+        
+                      <!-- booking pradzia -->
+            <div class="col-12 col-sm-6">
+              <h5>Mūsų restorano koordinatės:</h5>
+              <div class="mt-3">Mūsų adresas: Visados g. 3, Niekados raj.</div>
+              <div class="mb-2">Detalesnė informacija teikiama: +370 (111) 11111</div>
+              <div class="mb-2">
+                <label for="name" class="form-label">Jūsų Vardas</label>
+                <input type="text" class="form-control" id="name" placeholder="Laukas privalomas" aria-describedby="emailHelp" required>
+              </div>
+              <div class="col-12 mb-2">
+                <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                <select class="form-select" id="inlineFormSelectPref">
+                  <option selected>Pasirinkite svečių skaičių</option>
+                  <option value="1">1 asmuo</option>
+                  <option value="2">2 asmenys</option>
+                  <option value="3">3 asmenys</option>
+                  <option value="4">4 asmenys</option>
+                  <option value="5">5 - 8 asmenys</option>
+                  <option value="8">8 - 12 asmenys</option>
+                  <option value="12">12 - 20 asmenys</option>
+                </select>
+              </div>
+                  <div class="mb-2">          
+                      <label for="start">Pasirinkite data:</label>
+                      <input type="date" id="start" name="trip-start" value="#" min="2022-01-01" max="2022-12-31" required>
+                  </div>
+                  <div class="mb-2">    
+                      <label for="appt-time">Pasirinkite laiką:</label>
+                      <input id="appt-time" type="time" name="appt-time"min="12:00"max="24:00" required>
+                  </div>    
+                      <div class="mb-2">
+                        <label for="exampleFormControlTextarea1" class="form-label">Papildomi pageidavimai restorano personalui:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <div class="d-grid gap-2 col-6 mx-auto">
+                        <button class="btn btn-primary" type="button"><i class="bi bi-emoji-smile-upside-down"></i> Patvirtinti</button>
+                      </div>         
+            </div>    
+        </div>        
+      </div>
+<!-- booking pabaiga -->
+        
+        
+        
 
-  </div><!-- containerio uzdarymas -->
-  
+  </div>
+    <!-- containerio uzdarymas -->
 
-    <div class="container-float">
-      <header>
-        <div>
-          <h2 id="home">Restoranas EndFrontas</h2>
-        </div>
-      </header>
-
-    </div>
-
+      <footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
+        <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="s
+      </footer>
 
 
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+ 
   </body>
 </html>
