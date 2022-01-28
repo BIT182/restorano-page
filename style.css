@@ -286,7 +286,9 @@ div.image-card .content-title {
   width: 49%;
 }
 
-.carousel-item img {
+/* suvienodinta carouseles foto dydziai */
+
+.carousel-item img, .card img {
   object-fit: cover;
   object-position: center;
   height: 30rem;
