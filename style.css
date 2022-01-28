@@ -285,3 +285,10 @@ div.image-card .content-title {
 .content-section-5 .object-wrapper {
   width: 49%;
 }
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 30rem;
+  overflow: hidden;
+}
