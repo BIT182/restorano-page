@@ -1,6 +1,8 @@
-* {
+* {margin: 0;
   box-sizing: border-box;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,300&display=swap');
 
 body {
   margin: 0;
@@ -22,6 +24,13 @@ h1 {
 
 h2 {
   font-size: 35px;
+  height: 20vh;
+  text-align: center;
+  padding-top: 7vh;
+  color: white;
+  background-image: url(./images/backg.jpg);
+  font-family: 'Work Sans', sans-serif;
+
 }
 
 .container {
