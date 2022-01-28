@@ -25,6 +25,7 @@ h2 {
 }
 
 .container {
+  /* height: 100vh; */
   max-width: 900px;
   margin-right: auto;
   margin-left: auto;
@@ -285,3 +286,22 @@ div.image-card .content-title {
 .content-section-5 .object-wrapper {
   width: 49%;
 }
+.footeris{
+  display: flex;
+  height: 10vh;
+  width: 100vw;
+  /* background-color: rgb(146, 103, 103); */
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem ;
+
+}
+.socmedia-style{
+  font-size: 2.5rem; 
+  color: rgba(255, 255, 255, 0.5);
+  transform: translate(0%, -25%)
+  }
+
+ul{
+  list-style: none;
+}
+
