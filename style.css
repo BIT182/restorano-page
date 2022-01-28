@@ -30,6 +30,8 @@ h2 {
   color: white;
   background-image: url(./images/backg.jpg);
   font-family: 'Work Sans', sans-serif;
+  object-fit: cover;
+
 
 }
 
@@ -298,11 +300,12 @@ div.image-card .content-title {
 
 .footeris{
   display: flex;
-  height: 10vh;
+  height: 20vh;
   width: 100vw;
   /* background-color: rgb(146, 103, 103); */
   color: rgba(255, 255, 255, 0.5);
   font-size: 1rem ;
+  margin-top: 3rem;
 
 }
 .socmedia-style{
@@ -315,7 +318,7 @@ ul{
   list-style: none;
 }
 
-=======
+
 
 /* suvienodinta carouseles foto dydziai */
 
